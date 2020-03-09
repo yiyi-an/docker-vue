@@ -1,12 +1,8 @@
-image_version=`date +%Y%m%d%H%M`;
-echo 开始构建:${image_version};
-# cd vue2docker
-#cd project;
+image_varsion="latest"
 git pull --rebase origin master;
-#cd ../;
-echo 停止vue2docker;
 docker stop vue2docker;
 docker rm vue2docker;
+docker image rm -f vue2docker:$image_version
 docker build -t vue2docker:$image_version .;
 docker images;
 docker run -p 10002:80 -d --name vue2docker vue2docker:$image_version;
