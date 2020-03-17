@@ -15,10 +15,6 @@
             <li>
               <a href="http://jenkins.dodolib.cn">http://jenkins.dodolib.cn</a>
             </li>
-            <li>
-                或<a href="http://123.206.204.35:8080">http://123.206.204.35:8080</a>
-            </li>
-            <li>账号/密码: anxiaodong</li>
           </ul>
       </li>
       <li>选择项目: node-vuedemo-web</li>
@@ -28,9 +24,6 @@
         <ul>
           <li>
             <a href="http://vuedocer.dodolib.cn/"> http://vuedocer.dodolib.cn/</a>
-          </li>
-            <li>
-            或<a href="http://vuedocer.dodolib.cn/"> http://123.206.204.35:10002</a>
           </li>
         </ul>
       </li>

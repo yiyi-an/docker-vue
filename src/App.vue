@@ -4,7 +4,7 @@
     <h2>{{title}}</h2>
      <div class="btn-wrap">
       <a  href="#" @click="componentId='HelloWorld'">使用流程</a>
-      <a href="http://blog.dodolib.cn">搭建文档</a>
+      <a href="http://blog.dodolib.cn/#nginx">搭建文档</a>
     </div>
     <component :is="componentId"></component>
   </div>
